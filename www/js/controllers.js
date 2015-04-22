@@ -1,6 +1,6 @@
 angular.module('starter.controllers', [])
 
-.controller('SlideCtrl', function($scope, $ionicModal) {
+.controller('SlideCtrl', function($scope) {
 
   $scope.gotPictures = [
     {
