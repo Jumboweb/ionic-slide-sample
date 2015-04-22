@@ -2,7 +2,7 @@ angular.module('starter.controllers', [])
 
 .controller('SlideCtrl', function($scope, $ionicModal) {
 
-  $scope.allPictures = [
+  $scope.gotPictures = [
     {
       'src' : 'img/baratheon.jpg'
     },
@@ -20,6 +20,21 @@ angular.module('starter.controllers', [])
     },
     {
 	    'src' : 'img/valar-morghulis.jpg'
+    }
+  ];
+
+  $scope.avengersPictures = [
+    {
+      'src' : 'img/hulk.jpg'
+    },
+    {
+	    'src' : 'img/ironman.jpeg'
+	  },
+    {
+	    'src' : 'img/thor.jpg'
+    },
+    {
+	    'src' : 'img/captainamerica.jpg'
     }
   ];
 });
