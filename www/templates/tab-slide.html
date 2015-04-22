@@ -2,12 +2,12 @@
   <ion-content class="padding">
     <a class="item item-list-detail">
       <ion-scroll direction="x">
-        <img ng-repeat="picture in gotPictures" ng-src="{{picture.src}}" ng-click="showImages($index)" class="picture-thumb"/>
+        <img ng-repeat="picture in gotPictures" ng-src="{{picture.src}}" class="picture-thumb"/>
       </ion-scroll>
     </a>
     <a class="item item-list-detail">
       <ion-scroll direction="x">
-        <img ng-repeat="picture in avengersPictures" ng-src="{{picture.src}}" ng-click="showImages($index)" class="picture-thumb"/>
+        <img ng-repeat="picture in avengersPictures" ng-src="{{picture.src}}" class="picture-thumb"/>
       </ion-scroll>
     </a>
   </ion-content>
