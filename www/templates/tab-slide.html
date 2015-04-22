@@ -1,0 +1,9 @@
+<ion-view view-title="Valar morghulis">
+  <ion-content class="padding">
+    <a class="item item-list-detail">
+      <ion-scroll direction="x">
+        <img ng-repeat="picture in allPictures" ng-src="{{picture.src}}" ng-click="showImages($index)" class="picture-thumb"/>
+      </ion-scroll>
+    </a>
+  </ion-content>
+</ion-view>
