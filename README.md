@@ -1,4 +1,4 @@
-# ionic-slide-sample
+# Ionic Slide Sample
 
 ##Ionic view
 
